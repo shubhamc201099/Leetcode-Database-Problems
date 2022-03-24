@@ -1,0 +1,4 @@
+/* Write your PL/SQL query statement below */
+select e.name as "EMPLOYEE" from employee e, employee a
+where a.id= e.managerid
+and e.salary>a.salary;
